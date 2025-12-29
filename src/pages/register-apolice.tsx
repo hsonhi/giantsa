@@ -40,7 +40,7 @@ const RegisterApolice: NextPageWithLayout = ({
           </Link>
 
           <strong className="text-2xl font-medium text-gray-200">
-            Registrar Apólice Automóvel
+            Registar Apólice Automóvel
           </strong>
         </div>
       </SubHeader>

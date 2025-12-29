@@ -3,8 +3,8 @@ import { ArrowRight, HourglassMedium, Tag, User } from 'phosphor-react'
 
 export function Summary() {
   return (
-    <div className="-mt-20 pt-9 pb-20">
-      <div className="max-w-7xl px-2 mx-auto gap-4 flex items-center justify-between overflow-scroll lg:px-8 sm:px-6 ">
+    <div className="-mt-20 pt-9 pb-10">
+      <div className="max-w-7xl px-2 mx-auto gap-4 flex items-center justify-between overflow-y-hidden lg:px-8 sm:px-6 ">
         <article className="bg-gray-50 p-4 rounded-lg border border-gray-300 flex flex-col gap-2 lg:gap-4 min-w-fit flex-1">
           <header className="flex items-center justify-between gap-2 border-b pb-2">
             <div className="flex items-center gap-4 ">

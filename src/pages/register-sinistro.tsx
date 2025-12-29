@@ -39,7 +39,7 @@ const RegisterSinistro: NextPageWithLayout = ({
           </Link>
 
           <strong className="text-2xl font-medium text-gray-200">
-            Registrar Sinistro
+            Registar Sinistro
           </strong>
         </div>
       </SubHeader>

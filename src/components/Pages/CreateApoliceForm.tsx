@@ -99,12 +99,16 @@ export function CreateApoliceForm({
     }
 
     try {
-      await api.post('', newApolices)
-
-      toast.success('Apólice criada com sucesso')
-      await router.push('/apolices')
+      const post =  await api.post('apolices', newApolices)
+      if(post.data.status === '200'){
+          toast.success('Apólice criada com sucesso')
+          await router.push('/apolices')
+      }else{
+        toast.error(post.data.status)
+      }
+    
     } catch (err) {
-      toast.error('Não foi possível registrar a apólice')
+      toast.error('Não foi possível Registar a apólice')
     }
   }
 

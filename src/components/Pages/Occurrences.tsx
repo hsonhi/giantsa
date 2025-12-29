@@ -18,7 +18,6 @@ import photo from '../../assets/no-picture.webp'
 export function Occurrences() {
   return (
     <Table>
-      <TableCaption>Lista de ocorrências</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead>Cliente</TableHead>

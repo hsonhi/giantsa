@@ -113,13 +113,16 @@ export function RegisterSinistroForm({
     }
 
     try {
-      await api.post('', newSinistro)
 
-      toast.success('Sinistro registrado com sucesso')
-      reset()
-      await router.push('/')
+ const post =  await api.post('sinistros', newSinistro)
+      if(post.data.status === '200'){
+          toast.success('Sinistro registrado com sucesso')
+          await router.push('/sinistros')
+      }else{
+        toast.error(post.data.status)
+      }
     } catch (err) {
-      toast.error('Não foi possível registrar o sinistro')
+      toast.error('Não foi possível Registar o sinistro')
     }
   }
 
@@ -525,7 +528,7 @@ export function RegisterSinistroForm({
           type="submit"
           className="bg-amber-600 hover:bg-amber-700 text-gray-100 text-lg py-4 rounded-lg disabled:bg-amber-600/30 disabled:cursor-not-allowed"
         >
-          Registrar Sinistro
+          Registar Sinistro
         </button>
       </form>
     </Form>

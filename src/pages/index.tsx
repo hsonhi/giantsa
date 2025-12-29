@@ -29,7 +29,7 @@ const Home: NextPageWithLayout = () => {
             className="sm:p-3 p-2 bg-amber-500 hover:bg-amber-600 rounded text-gray-100 font-medium flex  items-center gap-2 "
           >
             <FilePlus size={20} />
-            Registrar Sinistro
+            Registar Sinistro
           </Link>
         </div>
       </div>
