@@ -1,7 +1,7 @@
 'use client'
 
 import { useForm } from 'react-hook-form'
-import { Input } from '../ui/input'
+import { Input } from '../UI/Input'
 
 import { cn } from '@/lib/utils'
 import {
@@ -10,13 +10,13 @@ import {
   CommandGroup,
   CommandInput,
   CommandItem,
-} from '@/components/ui/command'
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group'
+} from '@/components/UI/command'
+import { RadioGroup, RadioGroupItem } from '@/components/UI/radio-group'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/ui/popover'
+} from '@/components/UI/popover'
 
 import {
   Form,
@@ -38,7 +38,7 @@ import { Check, ChevronsUpDown, LoaderIcon } from 'lucide-react'
 import { ICity } from '@/schema/City'
 import { IJob } from '@/schema/Job'
 import { CStatus } from '@/schema/CStatus'
-import { Button } from '../ui/button'
+import { Button } from '../UI/button'
 import { useEffect, useState } from 'react'
 import { api } from '@/lib/axios'
 

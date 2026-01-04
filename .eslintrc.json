@@ -5,6 +5,9 @@
   "rules": {
     "camelcase": "off",
     "no-useless-constructor": "off",
-    "react/no-unknown-property": "off"
+    "react/no-unknown-property": "off",
+    "prettier/prettier": ["warn", { "endOfLine": "auto" }]
+    // or
+    // "prettier/prettier": "off"
   }
 }

@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 import 'dayjs/locale/pt'
 
 import '@/styles/globals.css'
-import { Toast } from '@/components/ui/Toast'
+import { Toast } from '@/components/UI/Toast'
 
 const spaceGrotesk = SpaceGrotesk({
   subsets: ['latin'],

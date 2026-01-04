@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogPrimitive,
-} from '@/components/ui/dialog'
+} from '@/components/UI/dialog'
 import { X } from 'lucide-react'
 import { ReactNode } from 'react'
 

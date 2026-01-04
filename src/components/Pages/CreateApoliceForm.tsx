@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/router'
 
-import { Input } from '../ui/input'
+import { Input } from '../UI/Input'
 import { IClient } from '@/schema/Client'
 import { ITypesApolice } from '@/schema/TypesApolice'
 import { IVehicle } from '@/schema/Vehicle'
@@ -14,7 +14,7 @@ import {
   FormField,
   FormItem,
   FormLabel,
-} from '@/components/ui/form'
+} from '@/components/UI/form'
 
 import {
   Select,
@@ -22,7 +22,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@/components/UI/select'
 
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'

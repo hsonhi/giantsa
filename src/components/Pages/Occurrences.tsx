@@ -8,7 +8,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/components/ui/table'
+} from '@/components/UI/table'
 
 import Image from 'next/image'
 import { Circle, DotsThree } from 'phosphor-react'

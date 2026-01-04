@@ -8,7 +8,7 @@ import { CalendarBlank, FilePlus, Funnel, UserSquare } from 'phosphor-react'
 import { DefaultLayout } from '@/components/DefaultLayout'
 import { parseCookies } from 'nookies'
 import { Occurrences } from '@/components/Pages/Occurrences'
-import { DataPicker } from '@/components/ui/dataPicker'
+import { DataPicker } from '@/components/UI/dataPicker'
 
 const Home: NextPageWithLayout = () => {
   return (

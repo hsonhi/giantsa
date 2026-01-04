@@ -11,9 +11,9 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@/components/UI/select'
 
-import { Checkbox } from '@/components/ui/checkbox'
+import { Checkbox } from '@/components/UI/checkbox'
 import {
   Form,
   FormControl,
@@ -21,14 +21,14 @@ import {
   FormField,
   FormItem,
   FormLabel,
-} from '@/components/ui/form'
+} from '@/components/UI/form'
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/ui/popover'
+} from '@/components/UI/popover'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@/components/UI/button'
 import { cn } from '@/lib/utils'
 import { Check, ChevronsUpDown, UserPlus2 } from 'lucide-react'
 import {
@@ -37,9 +37,9 @@ import {
   CommandGroup,
   CommandInput,
   CommandItem,
-} from '@/components/ui/command'
+} from '@/components/UI/command'
 
-import { Input } from '@/components/ui/input'
+import { Input } from '@/components/UI/Input'
 
 import { zodResolver } from '@hookform/resolvers/zod'
 
