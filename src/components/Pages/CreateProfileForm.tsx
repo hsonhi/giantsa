@@ -25,7 +25,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form'
+} from '@/components/UI/form'
 
 import {
   Select,
@@ -33,7 +33,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@/components/UI/select'
 import { Check, ChevronsUpDown, LoaderIcon } from 'lucide-react'
 import { ICity } from '@/schema/City'
 import { IJob } from '@/schema/Job'
